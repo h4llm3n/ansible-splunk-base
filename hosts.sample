@@ -2,4 +2,10 @@
 [splunkhosts]
 my-host.splk.me ansible_host=172.16.1.1
 
+[splunk_if]
+my-intermediate-forwarder ansible_host=10.0.0.10
+
+[splunk_uf]
+my-universal-forwarder1
+my-universal-forwarder2
  
