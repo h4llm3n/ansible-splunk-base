@@ -79,6 +79,8 @@ uf_forward_internal_logs_address: 127.0.0.1
 # -UF Outputs- The address of the indexer, heavy forwarder, or cluster master's receiving port for outputs.conf
 uf_forward_internal_logs_port: 9997
 
+# IF Outputs (Intermediate forwarder)
+if_forward_internal_logs_address: "inputs1.splunkcloud.com:9997, inputs2.splunkcloud.com:9997, inputs3.splunkcloud.com:9997"
 
 
 #===========================================
